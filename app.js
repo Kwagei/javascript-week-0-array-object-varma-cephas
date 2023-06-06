@@ -11,20 +11,20 @@ console.log(tools)
 
 // print five from the array above
 
-let arr = [0,1,2,3,4,[5,6,7],8,9]
-console.log(arr[5][0])
+let arr = [0,1,2,3,4,[5,6,7],8,9];
+console.log(arr[5][0]);
 
 // print the last item in the array above using the array length property
 
-let last_item = arr[arr.length -1]
-console.log(last_item)
+let last_item = arr[arr.length -1];
+console.log(last_item);
 
 // a program that swaps 0 and 1 and brings the output [1,0,2,3,4,[5,6,7],8,9]
 
-let nums = [1,0,2,3,4,[5,6,7],8,9]
-nums[0] = 0
-nums[1] = 1
-console.log(nums)
+let nums = [0,1,2,3,4,[5,6,7],8,9];
+nums[0] = 1;
+nums[1] = 0;
+console.log(nums);
 
 // declare an object called clss with three property
 
